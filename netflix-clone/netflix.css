@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.border{
+    height: 2px;
+    background-color: aliceblue;
+}
+.home-sec{
+   /* background-image: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg'); */
+   background-image: url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg');
+   /* background-image: url(''); */
+   
+     
+/* background-image: url('https://i0.wp.com/bigtechquestion.com/wp-content/uploads/2020/05/netflix.jpg?fit=1200%2C675&ssl=1'); */
+   background-size: cover;
+   /* width: 100vh; */
+   height: 100vh;
+   opacity: 0.8;
+   mix-blend-mode:color-burn;
+}
+.netflix-logo{
+    height:7rem;
+    margin-top: 0;
+    margin-right: 3rem;
+    /* margin-left: 2rem; */
+
+}
+.home-sec nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+
+#language-sel{
+  /* margin-top: 3rem; */
+  height: 36px;
+  width: 100px;
+  color: white;
+  background-color: rgba(23, 22, 22, 0.73);
+  text-align: center;
+  border-radius: 5px;
+}
+.signin-btn{
+    height: 36px;
+    width: 100px;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border: 0px;
+    border-radius: 5px;
+}
+.login-sec{
+    margin-top: 150px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 8rem;
+    
+
+}
+/* getStarted card */
+.login-sec h1{
+    font-size: 48px;
+    font-weight: 800;
+   font-family: sans-serif;
+   margin-bottom: 5px;
+   padding: 10px;
+}
+.login-sec h6{
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 200 ;
+    margin: 0;
+    padding: 10px;
+}
+.login-sec p {
+    font-size: 22px;
+}
+.login-sec div{
+    display: flex;
+    justify-content:center;
+    gap: 8px;
+    align-items: center;
+}
+.login-sec input{
+    color: rgba(255, 255, 255, 0.896);
+    font-size: 14px;
+    text-align: start;
+    height: 52px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.589); 
+}
+.login-sec button{
+    color: white;
+    font-size: 20px;
+    height: 57px;
+    width: 200px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(229, 9, 20);
+    /* RGB: 229 9 20 */
+}
+/* section 2 */
+.section-2{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 100px;
+}
+.section-2 div h1{
+    font-size: 42px;
+    font-weight: 800;
+   font-family: sans-serif;
+
+}
+.section-2 div p{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 200 ;
+}
+.section-2 div img{
+    height: 50vh;
+    width: 50%h;
+}
+/* section 3 */
+.section-3{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 100px;
+   
+}
+.section-3 div h1{
+    font-size: 42px;
+    font-weight: 800;
+   font-family: sans-serif;
+
+}
+.section-3 div p{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 200 ;
+}
+.section-3 div img{
+    height: 50vh;
+    width: 50%h;
+    padding: 20px;
+}
+/* section 4 */
+
+.section-4{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 100px;
+}
+.section-4 div h1{
+    font-size: 42px;
+    font-weight: 800;
+   font-family: sans-serif;
+
+}
+.section-4 div p{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 200 ;
+}
+.section-4 div img{
+    height: 50vh;
+    width: 50%h;
+    mix-blend-mode:inherit;
+}
+
+/* section 5 */
+
+.section-5{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 100px;
+}
+.section-5 div h1{
+    font-size: 42px;
+    font-weight: 800;
+   font-family: sans-serif;
+
+}
+.section-5 div p{
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 200 ;
+}
+.section-5 div img{
+    height: 50vh;
+    width: 50%h;
+    /* mix-blend-mode:inherit; */
+}
+
+/* section 6 */
+.section-6{
+    background-color: black;
+    color: white;
+    /* align-items: center; */
+    margin-top: 0px;
+    padding-top: 0px;
+   padding-bottom: 50px;
+}
+.section-6 h1{
+    font-size: 42px;
+    font-weight: 800;
+   font-family: sans-serif;
+   text-align: center;
+   margin-top: 0px;
+   padding-top: 10px;
+}
+.section-6-QA{
+    background-color: rgba(97, 96, 96, 0.922);
+    height: 60px;
+    width: 60%;
+    color: white;
+    /* padding: 0px; */
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    text-align: start;
+    line-height: normal;
+}
+.answers{
+    background-color: rgba(97, 96, 96, 0.922);
+    height: 60px;
+    width: 57.25%;
+    color: white;
+    /* padding: 0px; */
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    text-align: start;
+    line-height: normal;
+    display: none;
+    margin-bottom: 2px;
+}
+
+/* .section-6-QA p{
+    margin-left: 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+} */
+.section-6 input{
+    color: rgba(255, 255, 255, 0.896);
+    font-size: 14px;
+    text-align: start;
+    height: 52px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0;
+    gap: 5px;
+    background-color: rgba(98, 97, 97, 0.415); 
+}
+#getStartedBtn-2{
+    color: white;
+    font-size: 20px;
+    height: 57px;
+    width: 200px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(229, 9, 20);
+    /* RGB: 229 9 20 */
+}
+.section-6-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.section-6-para {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+}
+/* footer section */
+.footer-sec{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    /* text-align: center; */
+    font-family: sans-serif;
+
+}
+.footer-sec p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.936);
+    margin-top: 0px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.footer-sec p a{
+     text-decoration: underline;
+     color: rgba(255, 255, 255, 0.958);
+     text-decoration-color: rgba(255, 255, 255,0.958);
+}
+.footer-sec ul{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255,0.958);
+    list-style-type: none;
+    
+}
+.footer-sec ul li{
+    padding: 8px;
+}
+.footer-sec ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color:  rgba(255, 255, 255,0.958);
+    
+}
+.footer-sec div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-sec select{
+   
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+
+
+
+
